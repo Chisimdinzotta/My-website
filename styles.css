@@ -1,0 +1,178 @@
+body{
+    color: #545454;
+    margin:0;
+    text-align:center;
+    font-family: "Merriweather", serif;
+
+}
+
+h1{
+    margin-top:0;
+    font-size: 5.625rem;
+    font-weight: normal;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+    color: #006666;
+}
+
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: black;
+    padding-bottom: 10px;
+    color: #006666;
+
+}
+
+h3{
+    font-family: "Montserrat", sans-serif;
+    color: #11999E;
+
+}
+
+
+h4{
+    color: #006666;
+    font-size: 1.2rem;
+}
+
+p{
+    line-height: 2;
+      margin: 0 0 100px 0;
+
+}
+
+hr{
+    border: dotted #D6E4E5 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+
+}
+
+a{
+    color: #497174;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 10px;
+    text-decoration:none;
+
+}
+
+a:hover{
+    color: #EB6440;
+}
+
+.blog{
+   float: right;
+   margin-right: 150px;
+}
+
+.top-container{
+    background-color:#D6E4E5;
+    position: relative;
+    padding-top: 100px;
+
+
+}
+
+
+.middle-container{
+    background-color:#FFFFFF;
+    padding-top: 50px;
+
+}
+
+.bottom-container{
+    background-color:#D6E4E5;
+    padding: 50px 0 20px;
+}
+
+.efficient{
+    text-decoration: underline;
+
+}
+
+.home-page-image{
+    width: 20%;
+    margin-top: 100px;
+}
+
+.top-design{
+    position: absolute;
+    width: 5%;
+    right:300px;
+    top: 50px;
+}
+
+.bottom-design{
+    position:absolute;
+    left: 250px;
+    bottom: 300px;
+     width: 4%;
+}
+
+.bio{
+    text-align:centre;
+    margin: 50px 650px 50px 650px;
+}
+
+.skill-row{
+    width: 50%
+    text-align:left;
+    margin: 80px 500px 80px 500px;
+
+
+}
+
+.writing-image{
+    width: 12%;
+    float: right;
+    margin-left: 30px;
+
+}
+
+.portrait{
+    width: 15%;
+
+}
+
+.waving-image{
+    width: 5%;
+}
+
+.girl-working{
+    width: 15%;
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+.contact-me{
+    width:40%;
+    margin: 40px auto 100px;
+}
+
+.btn {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  background: #006666;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+
+}
+
+.btn:hover {
+  background: #4E6C50;
+  text-decoration: none;
+}
+
+.copyright{
+    color:#497174;
+    font-size: 0.75rem;
+    padding: 5px 0;
+}
