@@ -57,15 +57,29 @@ boxplot(Covid_Data, col = "Bisque")
 
 
 #Proportion per thousand
-Covid_Data <- within(Covid_Data, pFemale <-(Female/ pop.Sex) * 1000)
-Covid_Data <- within(Covid_Data, pReligion <-(Religion/ pop.Religion) * 1000)
+Covid_Data_s <- within(Covid_Data, pFemale <-(Female/ pop.Sex) * 1000)
+Covid_Data_s <- within(Covid_Data, pMmale <-(Male/ pop.Sex) * 1000)
+Covid_Data_s <- within(Covid_Data, pAge.0.to.24 <-(Age..0.to.24/ pop.Age) * 1000)
+Covid_Data_s <- within(Covid_Data, pAge.25.to.44<-(Age..25.to.44/ pop.Age) * 1000)
+Covid_Data_s <- within(Covid_Data, pAge.45.to.64 <-(Age..45.to.64/ pop.Age) * 1000)
+Covid_Data_s <- within(Covid_Data, pAge.65.to.84 <-(Age..65.to.84/ pop.Age) * 1000)
+Covid_Data_s <- within(Covid_Data, pAge.85.and.ove <-(Age..85.and.over/ pop.Age) * 1000)
+Covid_Data_s <- within(Covid_Data, pWhite<-(White/ pop.Ethnic) * 1000)
+Covid_Data_s <- within(Covid_Data, pAsian <-(Asian/ pop.Ethnic) * 1000)
+Covid_Data_s <- within(Covid_Data, pBlack <-(Black/ pop.Ethnic) * 1000)
+Covid_Data_s <- within(Covid_Data, pOther.Ethnic <-(Other.Ethnic/ pop.Ethnic) * 1000)
+Covid_Data_s <- within(Covid_Data, pGood.Health <-(Good.Health/ pop.Health) * 1000)
+Covid_Data_s <- within(Covid_Data, pFair.Health <-(Fair.Health/ pop.Health) * 1000)
+Covid_Data_s <- within(Covid_Data, pBad.Health <-(Bad.Health/ pop.Health) * 1000)
+Covid_Data_s <- within(Covid_Data, pHas.Religion <-(Has.Religion/ pop.Religion) * 1000)
+Covid_Data_s <- within(Covid_Data, pNo.Religion <-(No.Religion/ pop.Religion) * 1000)
 
 #while 
 
 #Covid_Data <- within(Covid_Data, pMale <-(Male/ pop.Sex) * 1000)
-head(Covid_Data)
+head(Covid_Data_s)
 
-
+#chisq_out <- chisq.test(mytable)
 #pop_f <- apply(Female, Male, MARGIN = 2, FUN = function(female / (female + Male)) * 1000)
 #)
 #pop_f <- ((Data$female / (Data$female + Data$female)) * 1000)
